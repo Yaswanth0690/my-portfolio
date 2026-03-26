@@ -58,7 +58,7 @@ export default function Portfolio() {
   const certificates = [
     { title: "Azure Administrator Associate", issuer: "Microsoft", image: "/certificates/Azure.png" },
     { title: "Python Essentials", issuer: "Cisco Networking Academy", image: "/certificates/CiscoPy.png" },
-    { title: "Developer Job Simulation", issuer: "Accenture", image: "/certificates/ForageAcc.png" },
+    { title: "AccentureDeveloper Job Simulation", issuer: "Forage", image: "/certificates/ForageAcc.png" },
     { title: "Java (Basic)", issuer: "HackerRank", image: "/certificates/HRjavab.png" },
     { title: "SQL (Intermediate)", issuer: "HackerRank", image: "/certificates/HRsqli.png" },
     { title: "Block Chain & Applications", issuer: "Pantech e Learning", image: "/certificates/PanBc.png" },
@@ -66,8 +66,8 @@ export default function Portfolio() {
     { title: "Foundations of AI", issuer: "SkillUp Online", image: "/certificates/SkillupAI.png" },
     { title: "Git & GitHub", issuer: "APSSDC", image: "/certificates/ApssdcGit.png" },
     { title: "Python Programming", issuer: "APSSDC", image: "/certificates/ApssdcPy.png" },
-    { title: "Data Analysis with Pandas", issuer: "Certification", image: "/certificates/Pandas.png" },
-    { title: "Python Certification", issuer: "Certification", image: "/certificates/Python.png" }
+    { title: "Data Analysis with Pandas", issuer: "Codefinity", image: "/certificates/Pandas.png" },
+    { title: "Python Certification", issuer: "Codefinity", image: "/certificates/Python.png" }
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
