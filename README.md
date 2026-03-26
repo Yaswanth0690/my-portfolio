@@ -26,3 +26,9 @@ To run this project on your local machine:
 1. Clone the repository:
    ```bash
    git clone [https://github.com/Yaswanth0690/my-portfolio.git](https://github.com/Yaswanth0690/my-portfolio.git)
+2. Install dependencies:
+   ```bash
+   npm install
+3. Start the development server:
+   ```bash
+   npm run dev
